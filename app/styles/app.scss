@@ -15,3 +15,108 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 img {
   max-width: 100%;
 }
+
+
+.body {
+  display: inline-block;
+}
+/*top headline plus author and date*/
+
+.headline p span {
+  padding-left: 85px;
+  font-size: 45px;
+  display: inline-block;
+  text-transform: uppercase;
+
+}
+.author {
+  li{
+    display: inline-block;
+}
+  display: inline-block;
+  list-style: none;
+  padding-left: 170px;
+
+}
+
+.author img  {
+  li span {
+    padding-right: 5px;
+    display: inline-block;
+}
+  border-radius: 100%;
+  width: 40px;
+  display: inline-block;
+
+}
+
+
+/*top headline plus author and date*/
+
+.sidebarmiddle {
+
+  display: inline-block;
+  list-style: none;
+  float: right;
+}
+.sidebarmiddle {
+    border-radius: 100%;
+    width: 60px;
+    display: inline-block;
+    margin-left: 65px;
+}
+
+.sidebarmiddle h4 {
+  margin-left: 55px;
+}
+
+.sidebar {
+  padding-right: 70px;
+  padding-top: 25px;
+  display: inline-block;
+}
+
+.media  li {
+  display: inline-block;
+  float: right;
+
+  padding-left: 10px;
+
+}
+
+.quote {
+  color: blue;
+  text-transform: uppercase;
+  font-size: 25px;
+  border-left: solid gray 2px;
+  padding-left: 15px;
+  display: inline-block;
+}
+
+.side {
+  width: 180px;
+  list-style: none;
+  float: right;
+}
+
+.side img {
+  width: 180px;
+  list-style: none;
+}
+
+.social li {
+  list-style: none;
+  display: inline-block;
+}
+.bold h1 {
+  text-align: center;
+}
+
+.copyright {
+  list-style: none;
+  display: inline-block;
+}
+.navigation ul {
+  list-style: none;
+  display: inline-block;
+}
