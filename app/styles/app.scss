@@ -20,6 +20,152 @@ img {
 .body {
   display: inline-block;
 }
+
+
+/*header*/
+
+header {
+  background: url('../images/placeholder-surf.jpg') center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 523px;
+  position: relative;
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(46, 118, 178, 0.7);
+}
+
+nav, h1, h4 {
+  position: relative;
+}
+
+nav {
+  max-width: 1018px;
+  margin: 0 auto;
+  padding-right: 02.7504912%;
+
+}
+
+nav::after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+.logo-container {
+  float: left;
+  margin-top: 6px;
+  margin-left: 14px;
+}
+
+.logo-container h2 {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 0 0 2px;
+  letter-spacing: .2px;
+  position: relative;
+  top: -1px;
+}
+
+.logo-container h2 > span {
+  position: relative;
+  left: -2px;
+  letter-spacing: 0;
+}
+
+.logo-container h2 > span > span {
+  letter-spacing: -0.7px;
+}
+
+.logo-container img,
+.logo-container h2 {
+  vertical-align: middle;
+}
+
+.header-links {
+  float: right;
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0 0;
+}
+
+.header-links li {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 0 11px;
+  text-transform: uppercase;
+  font-size: 15px;
+
+}
+
+.header-links li:first-child {
+  position: relative;
+  top: -1px;
+}
+
+.header-links li span {
+  display: inline-block;
+  transform: scaleY(1.5);
+  font-weight: bold;
+  letter-spacing: -0.5px;
+}
+
+.header-links li span,
+.header-links li img {
+  vertical-align: middle;
+}
+
+.header-links li img {
+  margin-left: 4px;
+  position: relative;
+  top: 1px;
+  right: 3px;
+}
+
+header h1,
+header h4 {
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+  text-shadow: 0 2px 4px rgba(17, 52, 79, 1);
+  text-transform: uppercase;
+  margin: 150px 0 0 0;
+
+  font-size: 104px;
+  line-height: 104px;
+  font-weight: 400;
+  letter-spacing: -3px;
+}
+
+header h4 {
+  font-weight: 400;
+  margin: 0;
+  font-size: 15px;
+  letter-spacing: -1px;
+}
+
+.page-body {
+  margin-top: 40px;
+  font-family: 'Open Sans', helvetica, sans-serif;
+  height: 1008px;
+}
+
+
+
+
 /*top headline plus author and date*/
 
 .headline p span {
@@ -120,3 +266,10 @@ img {
   list-style: none;
   display: inline-block;
 }
+
+/* footer*/
+
+// .img1 {
+//   background-image: url("./../images/footerpic1.jpg");
+//   margin-left: 30px;
+// }
