@@ -2,6 +2,8 @@
 // Bootstrap Variables
 $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 
+$container-large-desktop: (1020px);
+
 // Import Bootstrap
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
 
@@ -168,12 +170,31 @@ header h4 {
 
 /*top headline plus author and date*/
 
+// .goes {
+//   text-align: center;
+//   // span {
+//   //   margin-left: -40px;
+//   // }
+// }
+
+
 .headline
- p span {
+  p span {
   text-align: center;
-  font-size: 45px;
+  // font-size: 45px;
   display: inline-block;
   text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 61px;
+  color: #073454;
+  line-height: 66px;
+  // margin-left: 20px;
+  margin-top: 13px;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  .author{
+    text-align: center;
+  }
 
 }
 .author {
@@ -196,6 +217,7 @@ header h4 {
   display: inline-block;
 
 }
+
 
 
 /*top headline plus author and date*/

@@ -1528,7 +1528,7 @@ pre {
       width: 970px; } }
   @media (min-width: 1200px) {
     .container {
-      width: 1170px; } }
+      width: 1020px; } }
 
 .container-fluid {
   margin-right: auto;
@@ -5940,9 +5940,18 @@ header h4 {
 .headline
 p span {
   text-align: center;
-  font-size: 45px;
   display: inline-block;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 61px;
+  color: #073454;
+  line-height: 66px;
+  margin-top: 13px;
+  margin-bottom: 6px;
   text-transform: uppercase; }
+  .headline
+  p span .author {
+    text-align: center; }
 
 .author {
   display: inline-block;
