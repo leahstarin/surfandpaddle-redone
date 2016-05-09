@@ -5937,16 +5937,16 @@ header h4 {
   height: 1008px; }
 
 /*top headline plus author and date*/
-.headline p span {
-  padding-left: 85px;
+.headline
+p span {
+  text-align: center;
   font-size: 45px;
   display: inline-block;
   text-transform: uppercase; }
 
 .author {
   display: inline-block;
-  list-style: none;
-  padding-left: 170px; }
+  list-style: none; }
   .author li {
     display: inline-block; }
 
@@ -5971,7 +5971,8 @@ header h4 {
   margin-left: 65px; }
 
 .sidebarmiddle h4 {
-  margin-left: 55px; }
+  margin-left: 55px;
+  display: inline-block; }
 
 .sidebar {
   padding-right: 70px;
@@ -6004,16 +6005,33 @@ header h4 {
   list-style: none;
   display: inline-block; }
 
+#social {
+  display: inline-block; }
+
 .bold h1 {
   text-align: center; }
 
 .copyright {
-  list-style: none;
-  display: inline-block; }
+  list-style: none; }
+  .copyright li {
+    display: inline-block;
+    color: #fff;
+    font-size: 10px; }
 
-.navigation ul {
-  list-style: none;
-  display: inline-block; }
+#nav {
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: solid 2px white;
+  color: #fff;
+  font-size: 10px; }
+
+.footer {
+  height: 60px;
+  background-color: navy; }
+
+.picture {
+  background-color: lightblue;
+  color: white; }
 
 /* footer*/
 
