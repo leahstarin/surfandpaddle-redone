@@ -5814,10 +5814,6 @@ button.close {
 *::after {
   box-sizing: border-box; }
 
-* {
-  margin: 0;
-  padding: 0; }
-
 img {
   max-width: 100%; }
 
@@ -5994,8 +5990,7 @@ p span {
 /*top headline plus author and date*/
 .sidebarmiddle {
   display: inline-block;
-  list-style: none;
-  float: right; }
+  list-style: none; }
 
 .sidebarmiddle {
   border-radius: 100%;
@@ -6221,5 +6216,18 @@ p span {
   height: 330px;
   display: inline-block;
   position: relative; }
+
+.bottom-photos {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.footer-title-1,
+.footer-title-2,
+.footer-title-3,
+.footer-title-3-secondline,
+.footer-title-4 {
+  font-size: 29px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase; }
 
 /*# sourceMappingURL=app.css.map */

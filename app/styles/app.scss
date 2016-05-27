@@ -13,7 +13,6 @@ $container-large-desktop: (1020px);
 *::after {
   box-sizing: border-box;
 }
-* { margin:0; padding:0; }
 
 img {
   max-width: 100%;
@@ -245,10 +244,9 @@ header h4 {
 /*top headline plus author and date*/
 
 .sidebarmiddle {
-
   display: inline-block;
   list-style: none;
-   run watch 
+
 }
 .sidebarmiddle {
     border-radius: 100%;
@@ -533,4 +531,19 @@ header h4 {
     height: 330px;
     display: inline-block;
     position: relative;
+}
+
+.bottom-photos {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.footer-title-1,
+.footer-title-2,
+.footer-title-3,
+.footer-title-3-secondline,
+.footer-title-4 {
+  font-size: 29px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
 }
