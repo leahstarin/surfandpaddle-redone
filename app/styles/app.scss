@@ -13,6 +13,7 @@ $container-large-desktop: (1020px);
 *::after {
   box-sizing: border-box;
 }
+* { margin:0; padding:0; }
 
 img {
   max-width: 100%;
@@ -22,7 +23,6 @@ img {
 .body {
   display: inline-block;
 }
-
 
 /*header*/
 
@@ -63,7 +63,6 @@ nav::after {
 }
 
 .logo-container {
-  float: left;
   margin-top: 6px;
   margin-left: 14px;
 }
@@ -178,11 +177,27 @@ header h4 {
 // }
 
 .paragraphs {
-  display: inline-block;
   font-family: 'Open Sans';
   color: #c5cfd6;
   line-height: 24.2px;
   letter-spacing: -.4px;
+}
+
+.first-p {
+  letter-spacing: .3px;
+  line-height: 26px;
+  margin-bottom: 28px;
+}
+
+.second-p {
+  letter-spacing: .3px;
+  line-height: 26px;
+  margin-bottom: 28px;
+}
+.third-p {
+  letter-spacing: .3px;
+  line-height: 26px;
+  margin-bottom: 28px;
 }
 
 .headline
@@ -233,7 +248,7 @@ header h4 {
 
   display: inline-block;
   list-style: none;
-  float: right;
+   run watch 
 }
 .sidebarmiddle {
     border-radius: 100%;
