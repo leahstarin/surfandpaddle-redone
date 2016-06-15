@@ -26,7 +26,7 @@ img {
 /*header*/
 
 header {
-  background: url('../images/surfandpaddle.jpeg') center center;
+  background: url('../images/newbackground.jpg') center center;
   -webkit-background-size: cover;
   background-size: cover;
   height: 523px;
@@ -40,7 +40,7 @@ header::before {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(46, 118, 178, 0.7);
+  background: rgba(46, 118, 178, 0.3);
 }
 
 nav, h1, h4 {
@@ -436,7 +436,7 @@ header h4 {
 /*right side styling*/
 
 .right-avatar-pic {
-  background: url('../images/footerpic1.jpg');
+  background: url('../images/authorface.jpg');
   // content: "";
   // position: absolute;
   // background: rgba(46, 118, 178, 0.7);
@@ -465,18 +465,18 @@ header h4 {
 
 .social-links {
   .twitter {
-    margin-right: 19px;
+    margin-right: 17px;
   }
 }
 
 .social-links {
   .facebook {
-    margin-right: 19px;
+    margin-right: 17px;
   }
 }
 
 .right-side-photo {
-  background: url('../images/footerpic1.jpg');
+  background: url('../images/author.jpg');
   background-size: cover;
   width: 278px;
   height: 300px;
@@ -515,15 +515,24 @@ header h4 {
   }
 }
 
+.left-side-author-name{
+  text-align: center;
+    padding-left: 40px;
+    padding-top: 8px;
+}
+
 
 /* footer*/
 
 .pictures  {
-  background: url("../images/footerpic1.jpg");
+  background: url("../images/prettyfooter1.jpg");
     background-size: cover;
     height: 330px;
     display: inline-block;
     position: relative;
+//     :hover {
+//     background-color: blue;
+// }
 }
 
 .bottom-photos {
@@ -539,4 +548,30 @@ header h4 {
   font-size: 29px;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
+  text-align: left;
+  padding-top: 285px;
 }
+
+// .img-1 {
+//      background: url("../images/prettyfooter1.jpg");
+//      background-size: cover;
+//      height: 330px;
+//      display: inline-block;
+//      position: relative;
+//
+// }
+// .image-1:hover{
+//   &::before{
+//     content: '';
+//     position: absolute;
+//     top: 0;
+//     bottom: 0;
+//     left: 0;
+//     right: 0;
+//     background-color: rgba(223,172,18, 0.5) ;
+//   }
+//   p{
+//     position: relative;
+//     display: inline-block;;
+//   }
+// }

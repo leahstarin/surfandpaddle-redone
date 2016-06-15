@@ -5822,7 +5822,7 @@ img {
 
 /*header*/
 header {
-  background: url("../images/surfandpaddle.jpeg") center center;
+  background: url("../images/newbackground.jpg") center center;
   -webkit-background-size: cover;
   background-size: cover;
   height: 523px;
@@ -5835,7 +5835,7 @@ header::before {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(46, 118, 178, 0.7); }
+  background: rgba(46, 118, 178, 0.3); }
 
 nav, h1, h4 {
   position: relative; }
@@ -6152,7 +6152,7 @@ p span {
 
 /*right side styling*/
 .right-avatar-pic {
-  background: url("../images/footerpic1.jpg");
+  background: url("../images/authorface.jpg");
   background-size: cover;
   height: 84px;
   width: 84px;
@@ -6173,13 +6173,13 @@ p span {
     letter-spacing: -.2px; }
 
 .social-links .twitter {
-  margin-right: 19px; }
+  margin-right: 17px; }
 
 .social-links .facebook {
-  margin-right: 19px; }
+  margin-right: 17px; }
 
 .right-side-photo {
-  background: url("../images/footerpic1.jpg");
+  background: url("../images/author.jpg");
   background-size: cover;
   width: 278px;
   height: 300px;
@@ -6209,9 +6209,14 @@ p span {
   line-height: 24.2px;
   letter-spacing: -.4px; }
 
+.left-side-author-name {
+  text-align: center;
+  padding-left: 40px;
+  padding-top: 8px; }
+
 /* footer*/
 .pictures {
-  background: url("../images/footerpic1.jpg");
+  background: url("../images/prettyfooter1.jpg");
   background-size: cover;
   height: 330px;
   display: inline-block;
@@ -6228,6 +6233,8 @@ p span {
 .footer-title-4 {
   font-size: 29px;
   font-family: 'Oswald', sans-serif;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-align: left;
+  padding-top: 285px; }
 
 /*# sourceMappingURL=app.css.map */
