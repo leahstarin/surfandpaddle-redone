@@ -26,7 +26,7 @@ img {
 /*header*/
 
 header {
-  background: url('../images/newbackground.jpg') center center;
+  background: url('../images/surfandpaddle.jpeg') center center;
   -webkit-background-size: cover;
   background-size: cover;
   height: 523px;
@@ -102,7 +102,7 @@ nav::after {
 
 .header-links li {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: center;
   margin: 0 0 0 11px;
   text-transform: uppercase;
   font-size: 15px;
@@ -339,13 +339,16 @@ header h4 {
 
     }
 #nav {
-  margin-left: 20px;
+  margin-left: 27px;
   padding-left: 20px;
   border-left:  solid 2px white;
   color: #fff;
   font-size: 10px;
+  text-align: right;
+
 
 }
+
 
 .footer {
   height: 60px;
